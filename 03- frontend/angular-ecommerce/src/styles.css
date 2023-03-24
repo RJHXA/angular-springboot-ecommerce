@@ -514,7 +514,7 @@ input.au-input.au-input-xl{
     background:#fff
 }
 .main-content.page-m{
-    padding:10% 15%!important
+    padding: 10% 30% 10% 5%;
 }
 
 /* 
@@ -722,6 +722,10 @@ table.table.table-bordered th{
 .detail-section{
     margin-top:60px
 }
+
+.detail-img{
+    width: 30%;
+}
 /**/
 
 /* 
@@ -767,7 +771,8 @@ footer{
     background:#232324;
     z-index:1;
     position:relative;
-    text-align:center
+    text-align:center;
+    overflow: hidden;
 }
 footer li a{
     color:#313131;
@@ -776,7 +781,7 @@ footer li a{
 footer ul li{
     display:inline-block;
     font-size:14px;
-    padding:10px 20px
+    padding:10px 20px;
 }
 
 /* 
